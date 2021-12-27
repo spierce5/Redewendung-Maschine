@@ -58,7 +58,7 @@ var Presentational = function (_React$Component) {
     value: function componentWillMount() {
       var _this2 = this;
 
-      fetch("https://gist.githubusercontent.com/spierce5/06fb099a10d3d2b2ea942a6757f39b7c/raw/1a9821375c51cb6d0b74bf19c970af606e8da4c0/").then(function (res) {
+      fetch("data/redewendungen.json").then(function (res) {
         return res.json();
       }).then(function (result) {
         _this2.setState({
