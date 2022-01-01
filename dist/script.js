@@ -213,7 +213,7 @@ var Presentational = function (_React$Component) {
                     'a',
                     {
                       'class': 'twitter-share-button',
-                      title: 'Tweet diese Redewendung!',
+                      title: 'Tweet dieses Zitat!',
                       href: twitterUrl,
                       target: '_top',
                       rel: 'noopener noreferrer',
