@@ -147,9 +147,9 @@ label::-moz-selection {
   background: lightgray; /* Gecko Browsers */
 }
 
-@media (max-width: 600px) {
+@media (min-width: 1200px) {
   #main-card {
-    width: 80vw;
+    width: 30vw;
   }
 }
 
@@ -158,8 +158,11 @@ label::-moz-selection {
     width: calc(480px - (2 / 15)*100vw);
   }
 }
-@media (min-width: 1200px) {
+
+@media (max-width: 600px) {
   #main-card {
-    width: 30vw;
+    width: 80vw;
   }
 }
+
+
