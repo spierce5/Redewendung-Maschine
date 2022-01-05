@@ -160,8 +160,26 @@ label::-moz-selection {
 }
 
 @media (max-width: 600px) {
+  .toggle {
+    right: auto;
+    max-width: 100vw;
+    font-size: 5vw;
+  }
+
   #main-card {
     width: 80vw;
+  }
+    
+  #contents {
+    font-size: medium;
+  }
+  
+  #zitat {
+    font-size: medium;
+  }
+  
+  #autor {
+    font-size: small
   }
 }
 
