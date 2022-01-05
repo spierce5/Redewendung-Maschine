@@ -181,6 +181,12 @@ label::-moz-selection {
   #autor {
     font-size: small
   }
+  
+  #new-button {
+    font-size: small;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 
