@@ -181,11 +181,40 @@ label::-moz-selection {
   #autor {
     font-size: small
   }
-  
+
   #new-button {
     font-size: small;
     max-width: 100%;
-    height: auto;
+  }
+}
+
+@media (max-width: 294px) {
+  
+  #buttons {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  
+  #new-button {
+    overflow: hidden;
+    height: 35px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: medium;
+  }
+  
+  #contents {
+    font-size: small;
+  }
+  
+  #zitat {
+    font-size: small;
+  }
+  
+  #autor {
+    font-size: x-small
   }
 }
 
