@@ -13,8 +13,15 @@ body {
     -10px 0px 10vw black inset; 
 }
 
+#container {
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #main-card {
-  width: 36vw;
   display: block;
   box-shadow: -3px 13px 15px black;
   background: linear-gradient(to bottom, rgb(46, 45, 45, .6), rgb(36, 36, 36, .6));
@@ -23,6 +30,7 @@ body {
   background-attachment: fixed;
   background-position: center center;
   padding: 5px;
+  margin: 50px 0 0 0;
 }
   
 #contents {
@@ -93,7 +101,7 @@ mark{
 
 
 .toggle {
-  position: fixed; 
+  position: absolute; 
   top: 10px;
   right: 10px;
   font-family: Roboto, sans-serif;
@@ -137,4 +145,21 @@ label::selection {
 }
 label::-moz-selection {
   background: lightgray; /* Gecko Browsers */
+}
+
+@media (max-width: 600px) {
+  #main-card {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  #main-card {
+    width: calc(480px - (2 / 15)*100vw);
+  }
+}
+@media (min-width: 1200px) {
+  #main-card {
+    width: 30vw;
+  }
 }
